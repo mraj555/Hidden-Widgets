@@ -2,6 +2,19 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
+/*
+🔎 BackdropFilter શું છે?
+Flutter માં BackdropFilter નો ઉપયોગ પાછળના widgets (background) ને blur (અસ્પષ્ટ) કે બીજો filter લગાવવા માટે થાય છે.
+મોટેભાગે તેને Frosted Glass Effect બનાવવા માટે વાપરે છે.
+એ માટે ImageFilter (dart:uiમાંથી) સાથે blurX અને blurY radius આપવી પડે છે.
+
+📖સમજૂતી
+Stack: પહેલા Background image મૂકવા માટે.
+BackdropFilter: એ ImageFilter.blur લગાવે છે જેથી પાછળનું બધું blur દેખાય.
+ClipRRect: Rounded corners આપવા માટે.
+Container: Transparent white color સાથે frosted glass look આપે છે.
+*/
+
 class BackDropFilterWidget extends StatelessWidget {
   const BackDropFilterWidget({super.key});
 
