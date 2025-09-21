@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hidden_widget/screens/interactiveViewer_widget.dart';
+import 'package:hidden_widget/screens/sliverAnimatedList_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -16,6 +17,10 @@ class HomeScreen extends StatelessWidget {
             child: Text("InteractiveViewer Widget"),
           ),
           SizedBox(height: 10),
+          ElevatedButton(
+            onPressed: () => Get.to(() => SliverAnimatedListWidget()),
+            child: Text("SliverAnimatedList Widget"),
+          ),
         ],
       ),
     ));
