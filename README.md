@@ -1,6 +1,15 @@
 # hidden_widget
 
-A new Flutter project.
+A Flutter project demonstrating various Flutter widgets.
+
+## Features
+
+This project showcases the following Flutter widgets:
+
+*   **InteractiveViewer Widget**: Demonstrates the use of the InteractiveViewer widget, allowing for pan and zoom capabilities on its child widget.
+*   **SliverAnimatedList Widget**: Shows an example of SliverAnimatedList, used for displaying an animated list of items within a custom scroll view.
+*   **BackDropFilter Widget**: Illustrates the use of BackDropFilter, which applies a filter (e.g., blur) to the area behind the widget.
+*   **ShaderMask Widget**: Provides an example of ShaderMask, which applies a shader to its child widget, allowing for custom visual effects like gradients or image masks.
 
 ## Getting Started
 
