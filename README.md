@@ -1,4 +1,4 @@
-# hidden_widget
+# Hidden Widget
 
 A Flutter project demonstrating various Flutter widgets.
 
